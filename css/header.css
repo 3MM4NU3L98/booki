@@ -3,7 +3,6 @@ header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.875rem;
-    background-color: beige;
 }
 
 .header__logo {
@@ -16,35 +15,29 @@ header {
     display: flex;
     column-gap: 4.25rem;
     height: 2.188rem;
-    background-color: aquamarine;
 }
 
 .header__a {
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    padding-top: 0.125rem;
 }
 .header__a:hover {
     color: var(--main-color);
-    border-top: solid 0.125rem var(--main-color);    
+    border-top: solid 0.125rem var(--main-color);
+    padding-top: 0;   
+    
 }
 
 .header__span {
     display: block;
     position: relative;
-    inset-block-start: 1rem ;
-}
-
-.header__span:hover {
-    inset-block-start: calc(1rem - 0.125rem) ;
-
+    inset-block-start: 0.801rem;
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     header {
-        display: flex;
         flex-direction: column;
-        column-gap: 0;
     } 
     
     .header__logo {
@@ -58,11 +51,17 @@ header {
 
     .header__a {
         flex: 1pc;
+        padding: 0;
     }
 
     .header__a:hover {
         border-top: none;
         border-bottom: solid 0.125rem var(--main-color);
+        padding-bottom: 0;
+    }
 
+    .header__span {
+        inset-block-start: 0;
+    
     }
 }
