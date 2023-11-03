@@ -1,4 +1,5 @@
 @import './header.css';
+@import './section/info-group.css';
 
 /* Design System */
 :root {
@@ -182,5 +183,8 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .main-container {
+        padding: 0;
+    }
     /* ... */
 }
