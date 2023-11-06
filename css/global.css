@@ -1,11 +1,12 @@
 /* Design System */
 :root {
         /* Colors */
+    --bg-color: #b8860b;
+    /* --main-container-bg-color: #FFFFFF; */
+    --main-container-bg-color: #faebd7;
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
-    /* --bg-color: #FFFFFF; */
-    --bg-color: darkgoldenrod;
     /* Text configuration */
     --font-weight: 400;
     --font-weight-bold: 700;
@@ -31,7 +32,7 @@ body {
     max-width: 1440px;
     padding: 0 3.125rem;
     box-sizing: border-box;
-    background-color: antiquewhite;
+    background-color: var(--main-container-bg-color);
 }
 
 a {

@@ -19,7 +19,7 @@ header {
 
 .header__a {
     text-align: center;
-    border-top: solid 0.125rem var(--bg-color);
+    border-top: solid 0.125rem var(--main-container-bg-color);
 }
 .header__a:hover {
     border-top-color: var(--main-color);
