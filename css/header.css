@@ -19,13 +19,11 @@ header {
 
 .header__a {
     text-align: center;
-    padding-top: 0.125rem;
+    border-top: solid 0.125rem var(--bg-color);
 }
 .header__a:hover {
+    border-top-color: var(--main-color);
     color: var(--main-color);
-    border-top: solid 0.125rem var(--main-color);
-    padding-top: 0;   
-    
 }
 
 .header__span {
@@ -50,14 +48,14 @@ header {
     }
 
     .header__a {
+        border-top: none;
+        border-bottom: solid 0.125rem var(--main-bg-color);
         flex: 1pc;
-        padding: 0;
     }
 
     .header__a:hover {
-        border-top: none;
-        border-bottom: solid 0.125rem var(--main-color);
         padding-bottom: 0;
+        border-bottom-color: var(--main-color);
     }
 
     .header__span {

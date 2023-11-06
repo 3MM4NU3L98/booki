@@ -1,49 +1,11 @@
+@import './global.css';
 @import './header.css';
 @import './section/info-group.css';
 
-/* Design System */
-:root {
-        /* Colors */
-    --main-color: #0065FC;
-    --main-bg-color: #F2F2F2;
-    --filter-bg-color: #DEEBFF;
-    /* Text configuration */
-    --font-weight: 400;
-    --font-weight-bold: 700;
-    --font-size: 1rem;
-}
-/****** General ***********/
-* {
-    font-family: 'Raleway', sans-serif;
-    font-size: var(--font-size);
-    font-weight: var(--font-weight);
-}
 
 .fa-solid {
     color: var(--main-color);
 }
-
-body {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    background-color: darkgoldenrod;
-}
-
-.main-container {
-    width: 100%;
-    max-width: 1440px;
-    padding: 0 3.125rem;
-    box-sizing: border-box;
-    background-color: antiquewhite;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-
 
 
 
