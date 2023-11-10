@@ -28,16 +28,44 @@
             <section id="info-group">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre-ville ou en pleine nature</p>
-                <form action="">
-                    <label for="gsearch">Search Google:</label>
-                    <input type="search" id="gsearch" name="gsearch">
-                    <input type="submit" value="Submit">
+                <form class="search-bar" action="">
+                    <label for="search">
+                        <i class="search-bar-label fa-solid fa-location-dot"></i>
+                    </label>
+                    <input id="search" type="text" placeholder="Marseille, France">
+                    <button class="search-bar-button search-bar-button1" type="submit">
+                        Rechercher
+                    </button>
+                    <button class="search-bar-button search-bar-button2" type="submit">
+                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    </button>
                 </form>
-                <form class="example" action="action_page.php">
-                    <label for="search"><i class="fa-solid fa-location-dot"></i></label>
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
+                <div class="filter-bar">
+                    <h2>Filtres</h2>
+                    <div class="filter-group-button">
+                        <div>
+                            <div class="filter-button">
+                                <i class="fa-solid fa-money-bill-wave"></i>Économique
+                            </div>
+                            <div class="filter-button">
+                                <i class="fa-solid fa-person"></i>Familial
+                            </div>
+                        </div>
+                        <div>
+                            <div class="filter-button">
+                                <i class="fa-solid fa-heart"></i>Romantique
+                            </div>
+                            <div class="filter-button">
+                                <i class="fa-solid fa-fire"></i>Nos pépites
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="infobar">
+                    <!-- <i class="fa-solid fa-info"></i> -->
+                    <img src="./images/logo/logo_info.svg" alt="Logo d'information">
+                    <div>Plus de 500 logements sont disponibles dans cette ville</div>
+                </div>
             </section>
 
             <div class="hebergements-and-populaires">

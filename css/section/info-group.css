@@ -2,3 +2,25 @@
 #info-group {
     margin: 1.875rem 0 2.188rem 0;
 }
+
+#info-group p {
+    margin: 0.5rem 0 0 0;
+}
+
+#info-group form {
+    margin: 2.188rem 0;
+}
+.infobar {
+    margin-top: 2.188rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    #info-group {
+        margin: 1.875rem 1.25rem 2.188rem 1.25rem;
+    }
+}

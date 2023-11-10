@@ -1,0 +1,87 @@
+.filter-bar {
+    display: flex;
+    column-gap: 0.938rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.filter-group-button {
+    display: flex;
+    column-gap: 0.938rem;
+    box-sizing: border-box;
+}
+
+.filter-group-button div {
+    display: flex;
+    column-gap: 0.938rem;
+}
+
+
+.filter-button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-shrink: 0;
+    height: 3.125rem;
+    min-width: 10.438rem;
+    box-sizing: border-box;
+    border: 0.125rem solid var(--filter-border);
+    border-radius: 1.563rem;
+    font-size: 1.063;
+    font-weight: var(--font-weight-bold);
+    padding: 4px 19px;
+}
+
+.filter-button:hover {
+    background: var(--filter-bg-color);
+}
+
+.filter-button i {
+    font-size: 1.375rem;
+}
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .filter-bar {
+        flex-direction: column;
+        align-items: self-start;
+        row-gap: 1.25rem;
+    }
+
+    .filter-button div {
+        flex-shrink: 1;
+
+    }
+
+    .filter-button {
+        font-size: 1rem;
+    }
+}
+
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .filter-group-button {
+        flex-wrap: wrap;
+        row-gap: 1.25rem;
+        column-gap: 0.625rem;
+    }
+
+    .filter-group-button div {
+        column-gap: 0.625rem;
+        flex: 1 1 500rem;
+    }
+
+    .filter-button {
+        min-width: 10.156rem;
+        justify-content: center;
+        
+
+        font-size: 0.875rem;
+    }
+
+
+
+
+
+}
