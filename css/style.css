@@ -1,8 +1,19 @@
 @import './global.css';
+/* Partie header */
 @import './header.css';
+/* Partie info-group */
 @import './section/info-group.css';
 @import './modules/search-bar.css';
 @import './modules/filter-bar.css';
+/* Partie hébergements */
+@import './section/hebergements.css';
+/* Partie populaires */
+@import  './section/populaires.css';
+/* Partie activités */
+@import './section/activity.css';
+/* Partie footer */
+
+
 @import './modules/card.css';
 
 
