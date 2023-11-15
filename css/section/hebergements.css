@@ -10,12 +10,7 @@
 
 }
 
-
 /* Positionnement du titre et des cards */
-/* .hebergements-title {
-    padding-bottom: 30px;
-} */
-
 .hebergements-cards {
     display: flex;
     flex-direction: column;
@@ -30,7 +25,7 @@
 }
 
 .hebergements-subcards a {
-    flex: 1 1 33%;
+    flex: 1 1 33%;    
 }
 
 .Show-more a {
@@ -76,12 +71,7 @@
         width: 100%;
     }
 
-
 }
-
-
-
-
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -100,7 +90,6 @@
     .hebergements-subcards a {
         width: 100%;
     }
-
 
     /* Cards */
     .hebergements-cards {
