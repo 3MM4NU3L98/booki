@@ -24,7 +24,6 @@
     flex-shrink: 0;
     height: 3.125rem;
     min-width: 10.438rem;
-    box-sizing: border-box;
     border: 0.125rem solid var(--filter-border);
     border-radius: 1.563rem;
     font-size: 1.063;
