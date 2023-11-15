@@ -1,5 +1,8 @@
 /* Conteneur section hebergements */
 #hebergements {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     width: 65%;
     padding: 30px;
     background-color: var(--main-bg-color);
@@ -16,6 +19,7 @@
 .hebergements-cards {
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 
 .hebergements-subcards {
@@ -26,11 +30,7 @@
 }
 
 .hebergements-subcards a {
-    width: 32%;
-}
-
-.Show-more {
-    margin-top: 30px;
+    flex: 1 1 33%;
 }
 
 .Show-more a {
@@ -42,7 +42,6 @@
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
 }
 
 .hebergements-cards img {
@@ -52,7 +51,7 @@
 }
 
 .hebergements-cards .card-content {
-    margin: 0px 10px;
+    padding: 0px 10px;
 }
 
 .hebergements-cards .card-title {

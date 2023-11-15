@@ -1,5 +1,8 @@
 /* Conteneur section populaire */
 #populaires {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     width: 32%;
     padding: 30px;
     background-color: var(--main-bg-color);
@@ -13,10 +16,17 @@
     align-items: center;
 }
 
+.populaires-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    height: 100%;
+}
+
 /* Cards */
 .populaires-cards .card {
     display: flex;
-    margin-top: 30px;
 }
 
 .populaires-cards img {
@@ -63,9 +73,6 @@
         width: 100%;
     }
 
-    .populaires-cards .card {
-        margin-top: 30px;
-    }
 
 
 
