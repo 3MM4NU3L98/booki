@@ -81,6 +81,7 @@
         padding: 20px;
         background-color: var(--main-container-bg-color);
         border-radius: 0;
+        gap: 0;
     }
 
     /* Positionnement du titre et des cards */

@@ -1,0 +1,18 @@
+#activity {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 35px 0;
+    padding: 30px;
+
+    background-color: cyan;
+}
+
+
+#activity div {
+    display: flex;
+}
+
+#activity a {
+    width: 25%;
+}

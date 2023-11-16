@@ -1,0 +1,20 @@
+.card-activity {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+
+
+
+
+}
+
+
+.card-activity img {
+    height: 380px;
+    object-fit: cover;
+}
+
+.card-activity h3 {
+    font-weight: var(--font-weight-bold);
+    margin: 20px 19px;
+}

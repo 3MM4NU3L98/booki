@@ -7,13 +7,14 @@
 @import './modules/filter-bar.css';
 /* Partie hébergements */
 @import './section/hebergements.css';
+@import './modules/card.css';
 /* Partie populaires */
 @import  './section/populaires.css';
 /* Partie activités */
 @import './section/activity.css';
+@import './modules/card-activy.css';
 /* Partie footer */
 
 
-@import './modules/card.css';
 
 
