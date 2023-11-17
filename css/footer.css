@@ -1,0 +1,28 @@
+footer {
+    background-color: var(--main-bg-color);
+    display: flex;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 33%;
+    padding: 20px;
+    list-style: none;
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    footer {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    footer ul {
+        padding: 30px;
+        width: 100%;
+    }
+
+}

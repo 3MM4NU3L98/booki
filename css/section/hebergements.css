@@ -20,12 +20,14 @@
 .hebergements-subcards {
     display: flex;
     justify-content:space-between;
-    gap: 30px;
+    gap: 20px;
+    text-wrap: nowrap;
 
 }
 
 .hebergements-subcards a {
-    flex: 1 1 33%;    
+    width: 32%;
+    /* flex: 1 1 33%;     */
 }
 
 .Show-more a {
@@ -102,4 +104,7 @@
         row-gap: 15px;
     }
 
+    .Show-more {
+        margin-top: 15px;
+    }
 }

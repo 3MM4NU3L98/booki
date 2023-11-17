@@ -1,12 +1,10 @@
 .card-activity {
+    display: flex;
+    flex-direction: column;
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
-
-
-
-
+    height: 100%;
 }
-
 
 .card-activity img {
     border-top-left-radius: 20px;
@@ -16,6 +14,25 @@
 }
 
 .card-activity h3 {
+    font-size: 1.125rem;
     font-weight: var(--font-weight-bold);
     padding: 20px 19px;
+}
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+    .card-activity img {
+        height: 200px;
+    }
+
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    .card-activity img {
+        height: 141px;
+    }
+
 }

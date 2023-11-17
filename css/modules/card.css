@@ -10,8 +10,12 @@
 }
 
 .card-title {
-    font-size: var(--font-size);
+    font-size: 0.875rem;
     font-weight: var(--font-weight-bold);
+}
+
+.card-subtitle {
+    font-size: 0.875rem;
 }
 
 .euro {

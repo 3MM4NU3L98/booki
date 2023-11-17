@@ -1,8 +1,6 @@
 #activity {
     margin: 35px 0;
     padding: 30px;
-
-    background-color: cyan;
 }
 
 #activity h2 {
@@ -16,4 +14,23 @@
 
 #activity a {
     width: 24.99999%;
+}
+
+#activity img {
+    width: 100%;
+}
+
+
+@media (max-width: 767.98px) {
+
+    #activity div {
+        flex-direction: column;
+        gap: 15Px;
+    }
+
+    #activity a {
+        width: 100%;
+    }
+
+
 }
