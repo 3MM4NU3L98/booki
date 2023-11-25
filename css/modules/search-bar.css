@@ -80,3 +80,19 @@
         display: inline-block
     }
 }
+
+@media (max-width: 375px) {
+
+    .search-bar {
+        max-width: none;
+    }
+
+    .search-bar-label {
+        width: 2.125rem;
+    }
+
+    #search {
+        padding: 0;
+    }
+    
+}

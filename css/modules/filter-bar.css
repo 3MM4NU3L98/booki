@@ -23,10 +23,9 @@
     align-items: center;
     flex-shrink: 0;
     height: 3.125rem;
-    min-width: 10.438rem;
     border: 0.125rem solid var(--filter-border);
     border-radius: 1.563rem;
-    font-size: 1.063;
+    font-size: 1.063rem;
     font-weight: var(--font-weight-bold);
     padding: 4px 19px;
 }
@@ -72,15 +71,21 @@
     }
 
     .filter-button {
-        min-width: 10.156rem;
         justify-content: center;
-        
-
         font-size: 0.875rem;
     }
 
+}
 
+@media (max-width: 380px) {
 
+    .filter-button {
+        font-size: 0.75rem;
+        padding: 4px 10px;
+    }
 
+    .filter-button i {
+        font-size: 1rem;
+    }
 
 }

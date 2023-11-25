@@ -21,13 +21,10 @@
     display: flex;
     justify-content:space-between;
     gap: 20px;
-    text-wrap: nowrap;
-
 }
 
 .hebergements-subcards a {
     width: 32%;
-    /* flex: 1 1 33%;     */
 }
 
 .Show-more a {
